@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        /* Header styling */
+        .header {
+            background-color: #8a2be2;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        /* Navigation styling */
+        .nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .nav button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 10px;
+        }
+
+        .nav button:hover {
+            background-color: white;
+        }
+
+        /* Content styling */
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* Hobby images container */
+        .hobbies {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .hobby {
+            text-align: center;
+        }
+
+        .hobby img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .hobby p {
+            margin-top: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        simple web
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <button><a href="home.html">Home</a></button>
+        <button><a href="aboutme.html">About me</a></button>
+        <button><a href="photos.html"PHOTOS>Photos </a></button>
+        <button><a href="community.html">Community</a></button>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h2>Photos section</h2>
+        <div class="hobbies">
+            <div class="hobby">
+                <img src="/images/moren.jpg" alt="Singing">
+                <p>moren</p>
+            </div>
+            <div class="hobby">
+                <img src="/images/kyle.jpg" alt="Games">
+                <p>kakyle</p>
+            </div>
+            <div class="hobby">
+                <img src="/images/ivan.jpg" alt="Chess">
+                <p>ivan and friends</p>
+            </div>
+            <div class="hobby">
+                <img src="/images/jeb.jpg" alt="Chess">
+                <p>jebjeb</p>
+            </div>
+            <div class="hobby">
+                <img src="/images/sean.jpg" alt="Chess">
+                <p>sean</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
